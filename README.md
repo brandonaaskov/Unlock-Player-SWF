@@ -14,6 +14,7 @@ If you're looking to circumvent users blocking your plugins that normally do sec
 ```
 At that point, it will be up to the plugin to "unlock" that player and set its visibility to true. That way, if someone simply blocks the plugin, all they're left with is a blank space where the player should be.
 
+If you have a custom field setup to denote paid/subscription content vs. free content, checkout the [custom-field-checker branch](https://github.com/BrightcoveOS/Unlock-Player-SWF/tree/custom-field-checker) and/or download that version of the plugin.
 
 Setup
 =====
