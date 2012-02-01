@@ -1,6 +1,8 @@
 About
 =====
 
+There are two things you can do before even considering this plugin that will likely solve your security problems. The first is to [domain restrict the player](http://support.brightcove.com/en/docs/editing-settings-players-availability-tab), which will only allow playback on the domain URLs you specify. Second, to prevent subscription/paid content from playing back in a viral player, you can specify to _not_ allow viral distribution in the distribution tab when editing a player. If neither of those solve your problem, keep reading.
+
 If you're looking to secure a player so that users can't simply look at the boot loader SWF that loads the player, you can use this plugin to "unlock" the player. Simply including will prevent the player from playing back on an admin.brightcove.com domain.
 
 If you're looking to circumvent users blocking your plugins that normally do security checks, you can also use this plugin (or code within) to solve that problem. To further secure the player, you can setup the BEML so that the video player component's visibility defaults to false, like so (the visible="false" parameter is the only important part, though the rest of the BEML is included for reference):
