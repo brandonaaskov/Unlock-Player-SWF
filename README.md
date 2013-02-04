@@ -23,4 +23,4 @@ If you have a custom field setup to denote paid/subscription content vs. free co
 Setup
 =====
 
-You can simply download the plugin from the [downloads folder](https://github.com/BrightcoveOS/Unlock-Player-SWF/downloads) and include it with your player as you normally would. If you're unfamiliar with plugins, you can [watch this support video](http://support.brightcove.com/en/docs/video-tutorial-adding-plugins-players) to brush up.
+You can simply grab the `UnlockPlayer.swf` file from the bin-release folder and include it with your player as you normally would. If you're unfamiliar with plugins, you can [watch this support video](http://support.brightcove.com/en/docs/video-tutorial-adding-plugins-players) to brush up.eo-tutorial-adding-plugins-players) to brush up.
